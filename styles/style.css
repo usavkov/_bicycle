@@ -47,6 +47,10 @@ p {
   color: #848789;
 }
 
+.hidden {
+  display: none;
+}
+
 header {
   width: 100%;
   min-height: 100vh;
@@ -192,9 +196,16 @@ header {
   background-position: center;
 }
 
-.card:hover {
+.card > a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.card > a:hover {
   background-color: #67c39faa;
-  cursor: pointer;
 }
 
 .card-1 {
@@ -237,7 +248,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 8em;
+  height: 10em;
   background: #282f35;
 }
 
