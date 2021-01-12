@@ -275,6 +275,7 @@ header {
 
 #email {
   padding: 0.5em;
+  padding-left: 1em;
   height: 3em;
   width: 400px;
   border: none;
@@ -282,7 +283,7 @@ header {
   background: none;
   font-family: "Lato", sans-serif;
   font-style: italic;
-  font-weight: normal;
+  font-weight: bold;
   color: #848789;
 }
 
@@ -312,6 +313,35 @@ header {
 #submit:active {
   background: #282f35;
   outline: 1px solid #282f35;
+}
+
+footer {
+  padding: 6em;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "a s .";
+  background: #f7f7f7;
+}
+
+.social {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+address {
+  align-items: center;
+  align-content: center;
+}
+
+address p {
+  height: 1.2em;
+}
+
+address p:first-child {
+  font-style: normal;
 }
 
 @media screen and (max-width: 1440px) {
