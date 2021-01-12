@@ -264,6 +264,56 @@ header {
   background-color: #f7f7f76a;
 }
 
+.mailing {
+  padding: 6em 0;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  gap: 2em;
+  background: white;
+}
+
+#email {
+  padding: 0.5em;
+  height: 3em;
+  width: 400px;
+  border: none;
+  outline: 1px solid #848789;
+  background: none;
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  color: #848789;
+}
+
+#email:focus {
+  outline: 1px solid #67c39f;
+  box-shadow: none;
+}
+
+#submit {
+  margin-left: 0.5em;
+  padding: 0.5em 2.5em;
+  height: 3em;
+  border: none;
+  outline: 1px solid #67c39f;
+  font-family: "Lato", sans-serif;
+  font-weight: normal;
+  color: white;
+  background: #67c39f;
+}
+
+#submit:hover {
+  background: #67c39faa;
+  outline: 1px solid #67c39faa;
+  cursor: pointer;
+}
+
+#submit:active {
+  background: #282f35;
+  outline: 1px solid #282f35;
+}
+
 @media screen and (max-width: 1440px) {
   .about-us > .wrapper,
 .twitter > .wrapper {
